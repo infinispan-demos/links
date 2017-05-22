@@ -1,0 +1,34 @@
+:y: &#10003;
+
+.Infinispan Embedded Demos
+|===
+|Name |Java API |JUnit
+
+|https://github.com/infinispan-demos/infinispan-nosqlunit-demo[`nosqlunit`]
+| {y}
+| {y}
+|===
+
+.Infinispan Remote Demos
+|===
+|Name |Java |Node.js |Execute |Listeners |Iterator |Query |Streams |JUnit
+
+|https://github.com/infinispan-demos/infinispan-nosqlunit-demo[`nosqlunit`]
+| {y}
+|
+|
+|
+|
+|
+|
+| {y}
+|https://github.com/infinispan-demos/infinispan-events[`events`]
+|
+| {y}
+| {y}
+| {y}
+| {y}
+|
+| {y}
+|
+|===
