@@ -2,11 +2,18 @@
 
 .Infinispan Embedded Demos
 |===
-|Name |Java API |JUnit
+|Name |Java API |Wildfly Swarm |CDI |JUnit
 
 |https://github.com/infinispan-demos/infinispan-nosqlunit-demo[`nosqlunit`]
 | {y}
+|
+|
 | {y}
+|https://github.com/infinispan-demos/infinispan-wf-swarm-example[`wildfly-swarm`]
+| {y}
+| {y}
+| {y}
+|
 |===
 
 .Infinispan Remote Demos
