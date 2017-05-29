@@ -4,29 +4,38 @@
 |===
 |Name |Java API |Wildfly Swarm |CDI  |JUnit
 
-|https://github.com/infinispan-demos/infinispan-nosqlunit-demo[`nosqlunit`]
+|https://github.com/infinispan-demos/infinispan-nosqlunit-demo[nosqlunit]
       | {y}     |              |     | {y}
-|https://github.com/infinispan-demos/infinispan-wf-swarm-example[`wildfly-swarm`]
+|https://github.com/infinispan-demos/infinispan-wf-swarm-example[wildfly-swarm]
       | {y}     | {y}          | {y} |
 |===
 
 .Infinispan Remote Demos
 |===
-|Name |Java |Node.js |Execute |Listeners |Iterator |Query |Streams |Spark | Persistence | JUnit
+|Name |Java |Node.js |Execute |Listeners |Iterator |Query |Streams |Spark | JUnit
 
-|https://github.com/infinispan-demos/infinispan-nosqlunit-demo[`nosqlunit`]
-      | {y} |        |        |          |         |      |        |      |             | {y}
-|https://github.com/infinispan-demos/infinispan-events[`events`]
-      |     | {y}    | {y}    | {y}      | {y}     |      | {y}    |      |             |
-|https://github.com/infinispan-demos/tf-ispn-demo[`tensor-flow`]
-      | {y} | {y}    |        | {y}      |         |      |        |      | Ceph        |
+|https://github.com/infinispan-demos/infinispan-nosqlunit-demo[nosqlunit]
+      | {y} |        |        |          |         |      |        |      | {y}
+|https://github.com/infinispan-demos/infinispan-events[events]
+      |     | {y}    | {y}    | {y}      | {y}     |      | {y}    |      |
+|https://github.com/infinispan-demos/tf-ispn-demo[tensor-flow]
+      | {y} | {y}    |        | {y}      |         |      |        |      |
 |===
+
+.Infinispan Persistence Demos
+|===
+|Name | Persistence
+
+|https://github.com/infinispan-demos/tf-ispn-demo[tensor-flow]
+      | https://github.com/vjuranek/infinispan-cachestore-ceph[Ceph]
+|===
+
 
 .JBoss Data Grid Remote Demos
 |===
 |Name |Java |Node.js |Execute |Listeners |Iterator |Query |Streams |Spark | JUnit
 
-|https://github.com/jbossdemocentral/jboss-datagrid-spark-analytics-demo[`spark-analytics`]
+|https://github.com/jbossdemocentral/jboss-datagrid-spark-analytics-demo[spark-analytics]
       | {y} |        |        |          |         |      |        | {y}  |
 |===
 
