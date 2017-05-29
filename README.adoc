@@ -12,12 +12,14 @@
 
 .Infinispan Remote Demos
 |===
-|Name |Java |Node.js |Execute |Listeners |Iterator |Query |Streams |Spark | JUnit
+|Name |Java |Node.js |Execute |Listeners |Iterator |Query |Streams |Spark | Persistence | JUnit
 
 |https://github.com/infinispan-demos/infinispan-nosqlunit-demo[`nosqlunit`]
-      | {y} |        |        |          |         |      |        |      | {y}
+      | {y} |        |        |          |         |      |        |      |             | {y}
 |https://github.com/infinispan-demos/infinispan-events[`events`]
-      |     | {y}    | {y}    | {y}      | {y}     |      | {y}    |      |
+      |     | {y}    | {y}    | {y}      | {y}     |      | {y}    |      |             |
+|https://github.com/infinispan-demos/tf-ispn-demo[`tensor-flow`]
+      | {y} | {y}    |        | {y}      |         |      |        |      | Ceph        |
 |===
 
 .JBoss Data Grid Remote Demos
