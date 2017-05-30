@@ -1,41 +1,59 @@
-:y: &#10003;
+:checkedbox: pass:normal[`[&#10004;]`]
 
-.Infinispan Embedded Demos
+[cols="1,2,1a,1", options="header"] 
 |===
-|Name |Java API |Wildfly Swarm |CDI  |JUnit
-
-|https://github.com/infinispan-demos/infinispan-nosqlunit-demo[nosqlunit]
-      | {y}     |              |     | {y}
-|https://github.com/infinispan-demos/infinispan-wf-swarm-example[wildfly-swarm]
-      | {y}     | {y}          | {y} |
-|===
-
-.Infinispan Remote Demos
-|===
-|Name |Java |Node.js |Execute |Listeners |Iterator |Query |Streams |Spark | JUnit
-
-|https://github.com/infinispan-demos/infinispan-nosqlunit-demo[nosqlunit]
-      | {y} |        |        |          |         |      |        |      | {y}
-|https://github.com/infinispan-demos/infinispan-events[events]
-      |     | {y}    | {y}    | {y}      | {y}     |      | {y}    |      |
-|https://github.com/infinispan-demos/tf-ispn-demo[tensor-flow]
-      | {y} | {y}    |        | {y}      |         |      |        |      |
-|===
-
-.Infinispan Persistence Demos
-|===
-|Name | Persistence
+|Demo Name |Features Demonstrated| Description| Prerequisites
 
 |https://github.com/infinispan-demos/tf-ispn-demo[tensor-flow]
-      | https://github.com/vjuranek/infinispan-cachestore-ceph[Ceph]
-|===
-
-
-.JBoss Data Grid Remote Demos
-|===
-|Name |Java |Node.js |Execute |Listeners |Iterator |Query |Streams |Spark | JUnit
+|
+{checkedbox} Remote Java +
+{checkedbox} Remote Node.js +
+{checkedbox} Listeners +
+{checkedbox} https://github.com/vjuranek/infinispan-cachestore-ceph[Ceph] store
+|
+Connecting https://www.tensorflow.org[TensorFlow], Infinispan and http://ceph.com[Ceph].
+|
 
 |https://github.com/jbossdemocentral/jboss-datagrid-spark-analytics-demo[spark-analytics]
-      | {y} |        |        |          |         |      |        | {y}  |
-|===
+|
+{checkedbox} JBoss Data Grid +
+{checkedbox} Remote Java +
+{checkedbox} https://spark.apache.org[Apache Spark] +
+|
+Analytics demo using Spark and JBoss Data Grid.
+|
 
+|https://github.com/infinispan-demos/infinispan-wf-swarm-example[wildfly-swarm]
+|
+{checkedbox} Embedded +
+{checkedbox} http://wildfly-swarm.io[Wildfly Swarm] +
+{checkedbox} CDI +
+|
+Demo Infinispan in Wildfly Swarm.
+|
+
+|https://github.com/infinispan-demos/infinispan-events[upcoming events]
+|
+{checkedbox} Remote Node.js +
+{checkedbox} Remote script execute +
+{checkedbox} Listener and Iterator +
+{checkedbox} Java Streams (via remote) +
+|
+
+3-tier app showing upcoming conferences talks. +
+
+Front-end written in http://elm-lang.org[Elm]. +
+
+https://expressjs.com[Express.js] app for the middle tier. +
+|
+
+|https://github.com/infinispan-demos/infinispan-nosqlunit-demo[nosqlunit]
+|
+{checkedbox} Embedded +
+{checkedbox} Remote Java +
+{checkedbox} JUnit
+|
+Demo unit test Infinispan using https://github.com/lordofthejars/nosql-unit[NoSQLUnit].
+|
+
+|===
