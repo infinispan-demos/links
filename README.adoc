@@ -4,6 +4,15 @@
 |===
 |Demo Name |Features Demonstrated| Description| Prerequisites
 
+|https://github.com/infinispan-demos/nodejs-infinispan-openshift[nodejs-openshift]
+|
+{checkedbox} Remote Node.js +
+{checkedbox} OpenShift +
+{checkedbox} Swagger +
+|
+Node.js microservice with persistence on Infinispan.
+|
+
 |https://github.com/infinispan-demos/tf-ispn-demo[tensor-flow]
 |
 {checkedbox} Remote Java +
