@@ -4,6 +4,16 @@
 |===
 |Demo Name |Features Demonstrated| Description| Prerequisites
 
+|https://github.com/infinispan-demos/postgresql-to-jdg[postgresql-to-jdg]
+|
+{checkedbox} JBoss Data Grid +
+{checkedbox} Remote Java +
+{checkedbox} Create Caches CLI +
+|
+Transfer data from https://wiki.postgresql.org/wiki/Detailed_installation_guides[PostgreSQL] database into JDG.
+|
+https://wiki.postgresql.org/wiki/Detailed_installation_guides[PostgreSQL]
+
 |https://github.com/infinispan-demos/nodejs-infinispan-openshift[nodejs-openshift]
 |
 {checkedbox} Remote Node.js +
