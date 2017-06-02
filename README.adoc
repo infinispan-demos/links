@@ -4,6 +4,29 @@
 |===
 |Demo Name |Features Demonstrated| Description| Prerequisites
 
+|https://github.com/redhat-developer-demos/popular-movie-store[popular-movie-store]
+|
+{checkedbox} Embedded +
+{checkedbox} Listeners +
+{checkedbox} Java Streams +
+{checkedbox} Spring +
+{checkedbox} HTTP Session +
+{checkedbox} OpenShift +
+|
+Spring Boot based shopping cart application. +
+
+HTTP session caching in Infinispan. +
+
+Stateful application re-deployments on https://kubernetes.io/[Kubernetes] (or) https://www.openshift.com/[OpenShift]. +
+
+Seamless https://martinfowler.com/bliki/CanaryRelease.html[canary releases] without losing the state.
+|
+https://kubernetes.io/[Kubernetes], +
+https://www.openshift.com/[OpenShift Online], +
+https://www.openshift.org/[OpenShift Origin] or + 
+https://github.com/minishift/minishift[Minishift].
+
+
 |https://github.com/burrsutter/devoxxUK17_kubernetes/tree/master/4_helloinfinispan[hello-springboot-openshift]
 |
 {checkedbox} Embedded +
