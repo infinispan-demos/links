@@ -4,15 +4,31 @@
 |===
 |Demo Name |Features Demonstrated| Description| Prerequisites
 
+|https://github.com/burrsutter/devoxxUK17_kubernetes/tree/master/4_helloinfinispan[hello-springboot-openshift]
+|
+{checkedbox} Embedded +
+{checkedbox} Spring +
+{checkedbox} OpenShift +
+|
+https://projects.spring.io/spring-boot/[Spring Boot] app stores data in embedded cache. +
+
+Runs in https://www.openshift.org[OpenShift] based container plattform. +
+
+Data survives when doing rolling updates.
+|
+https://www.openshift.org[OpenShift Origin] or https://github.com/minishift/minishift[Minishift]
+
+
 |https://github.com/infinispan-demos/postgresql-to-jdg[postgresql-to-jdg]
 |
 {checkedbox} JBoss Data Grid +
 {checkedbox} Remote Java +
-{checkedbox} Create Caches CLI +
+{checkedbox} Create Caches via CLI +
 |
 Transfer data from https://wiki.postgresql.org/wiki/Detailed_installation_guides[PostgreSQL] database into JDG.
 |
 https://wiki.postgresql.org/wiki/Detailed_installation_guides[PostgreSQL]
+
 
 |https://github.com/infinispan-demos/nodejs-infinispan-openshift[nodejs-openshift]
 |
@@ -20,9 +36,14 @@ https://wiki.postgresql.org/wiki/Detailed_installation_guides[PostgreSQL]
 {checkedbox} OpenShift +
 {checkedbox} Swagger +
 |
-Node.js microservice with persistence on Infinispan.
+Node.js microservice with persistence on remote cache.
+
+Runs in https://www.openshift.org[OpenShift] based container plattform. +
+
+Data survives when doing rolling updates.
 |
 https://www.openshift.org[OpenShift Origin] or https://github.com/minishift/minishift[Minishift]
+
 
 |https://github.com/infinispan-demos/tf-ispn-demo[tensor-flow]
 |
@@ -35,6 +56,7 @@ Connecting https://www.tensorflow.org[TensorFlow], Infinispan and http://ceph.co
 |
 https://www.tensorflow.org[TensorFlow], https://www.qt.io/[QT], https://nodejs.org/en/[Node], http://ceph.com[Ceph]
 
+
 |https://github.com/jbossdemocentral/jboss-datagrid-spark-analytics-demo[spark-analytics]
 |
 {checkedbox} JBoss Data Grid +
@@ -45,6 +67,7 @@ Analytics demo using Spark and JBoss Data Grid.
 |
 https://spark.apache.org[Apache Spark]
 
+
 |https://github.com/infinispan-demos/infinispan-wf-swarm-example[wildfly-swarm]
 |
 {checkedbox} Embedded +
@@ -54,14 +77,15 @@ https://spark.apache.org[Apache Spark]
 Demo Infinispan in Wildfly Swarm.
 |
 
+
 |https://github.com/infinispan-demos/infinispan-events[upcoming events]
 |
 {checkedbox} Remote Node.js +
-{checkedbox} Remote script execute +
-{checkedbox} Listener and Iterator +
+{checkedbox} Script exec +
+{checkedbox} Listeners +
+{checkedbox} Data Iteration +
 {checkedbox} Java Streams (via remote) +
 |
-
 3-tier app showing upcoming conferences talks. +
 
 Front-end written in http://elm-lang.org[Elm]. +
@@ -69,6 +93,7 @@ Front-end written in http://elm-lang.org[Elm]. +
 https://expressjs.com[Express.js] app for the middle tier. +
 |
 https://nodejs.org/en/[Node]
+
 
 |https://github.com/infinispan-demos/infinispan-nosqlunit-demo[nosqlunit]
 |
@@ -78,5 +103,6 @@ https://nodejs.org/en/[Node]
 |
 Demo unit test Infinispan using https://github.com/lordofthejars/nosql-unit[NoSQLUnit].
 |
+
 
 |===
