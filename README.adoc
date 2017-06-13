@@ -4,6 +4,32 @@
 |===
 |Demo Name |Features Demonstrated| Description| Prerequisites
 
+|https://github.com/infinispan-demos/swiss-transport-datagrid[swiss-transport-datagrid]
+|
+{checkedbox} Remote +
+{checkedbox} Java Streams (via remote) +
+{checkedbox} Continuous Query +
+{checkedbox} Server Task +
+{checkedbox} Protostream +
+{checkedbox} Vert.x +
+{checkedbox} OpenShift +
+{checkedbox} Jupyter +
+|
+Swiss transport data set application. +
+
+Handling real-time data with Continuous Queries. +
+
+Offline analytics with Java Streams. +
+
+Vert.x glues the application together. +
+
+Runs on top of OpenShift.
+|
+https://www.openshift.com/[OpenShift Online], +
+https://www.openshift.org/[OpenShift Origin] or + 
+https://github.com/minishift/minishift[Minishift].
+
+
 |https://github.com/redhat-developer-demos/popular-movie-store[popular-movie-store]
 |
 {checkedbox} Embedded +
