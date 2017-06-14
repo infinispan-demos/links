@@ -66,7 +66,7 @@ https://www.openshift.org/[OpenShift Origin] or +
 https://github.com/minishift/minishift[Minishift].
 
 
-|https://github.com/burrsutter/devoxxUK17_kubernetes/tree/master/4_helloinfinispan[hello-springboot-openshift]
+|https://github.com/burrsutter/devoxxUK17_kubernetes/tree/master/5_helloinfinispan[hello-springboot-openshift]
 |
 {checkedbox} Embedded +
 {checkedbox} Spring +
