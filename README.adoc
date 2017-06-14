@@ -38,9 +38,7 @@ Vert.x glues the application together. +
 
 Runs on top of OpenShift.
 |
-https://www.openshift.com/[OpenShift Online], +
-https://www.openshift.org/[OpenShift Origin] or + 
-https://github.com/minishift/minishift[Minishift].
+https://www.openshift.org/[OpenShift]
 
 
 |https://github.com/redhat-developer-demos/popular-movie-store[popular-movie-store]
@@ -60,11 +58,8 @@ Stateful application re-deployments on https://kubernetes.io/[Kubernetes] (or) h
 
 Seamless https://martinfowler.com/bliki/CanaryRelease.html[canary releases] without losing the state.
 |
-https://kubernetes.io/[Kubernetes], +
-https://www.openshift.com/[OpenShift Online], +
-https://www.openshift.org/[OpenShift Origin] or + 
-https://github.com/minishift/minishift[Minishift].
-
+https://kubernetes.io/[Kubernetes] +
+or https://www.openshift.org/[OpenShift]
 
 |https://github.com/burrsutter/devoxxUK17_kubernetes/tree/master/5_helloinfinispan[hello-springboot-openshift]
 |
@@ -78,7 +73,7 @@ Runs in https://www.openshift.org[OpenShift] based container plattform. +
 
 Data survives when doing rolling updates.
 |
-https://www.openshift.org[OpenShift Origin] or https://github.com/minishift/minishift[Minishift]
+https://www.openshift.org[OpenShift]
 
 
 |https://github.com/infinispan-demos/postgresql-to-jdg[postgresql-to-jdg]
@@ -104,7 +99,7 @@ Runs in https://www.openshift.org[OpenShift] based container plattform. +
 
 Data survives when doing rolling updates.
 |
-https://www.openshift.org[OpenShift Origin] or https://github.com/minishift/minishift[Minishift]
+https://www.openshift.org[OpenShift]
 
 
 |https://github.com/infinispan-demos/tf-ispn-demo[tensor-flow]
