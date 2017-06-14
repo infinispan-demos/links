@@ -4,6 +4,19 @@
 |===
 |Demo Name |Features Demonstrated| Description| Prerequisites
 
+|https://github.com/redhat-italy/infinispan-playground[playground]
+|
+{checkedbox} Embedded +
+{checkedbox} Externalizers +
+{checkedbox} Listeners +
+{checkedbox} File persistence +
+{checkedbox} LRU eviction +
+{checkedbox} Transactions +
+|
+Command line app for learning Infinispan/JDG. +
+|
+
+
 |https://github.com/infinispan-demos/swiss-transport-datagrid[swiss-transport-datagrid]
 |
 {checkedbox} Remote +
