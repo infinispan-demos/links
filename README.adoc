@@ -4,6 +4,17 @@
 |===
 |Demo Name |Features Demonstrated| Description| Prerequisites
 
+
+|https://github.com/infinispan-demos/infinispan-http2-go-example[http2-go-example]
+|
+{checkedbox} Remote +
+{checkedbox} HTTP2 +
+{checkedbox} Security +
+|
+Go client connects to Infinispan via HTTP/2 with TLS/ALPN support. +
+|
+
+
 |https://github.com/redhat-italy/infinispan-playground[playground]
 |
 {checkedbox} Embedded +
