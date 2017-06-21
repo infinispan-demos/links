@@ -24,7 +24,7 @@ Access via Role Based Access Control (RBAC). +
 
 |https://github.com/infinispan-demos/infinispan-http2-go-example[http2-go-example]
 |
-{checkedbox} Remote +
+{checkedbox} Remote Go +
 {checkedbox} HTTP2 +
 {checkedbox} Security +
 |
@@ -49,7 +49,7 @@ Command line app for learning Infinispan/JDG. +
 
 |https://github.com/infinispan-demos/swiss-transport-datagrid[swiss-transport-datagrid]
 |
-{checkedbox} Remote +
+{checkedbox} Remote Java +
 {checkedbox} Java Streams (via remote) +
 {checkedbox} Continuous Query +
 {checkedbox} Server Task +
