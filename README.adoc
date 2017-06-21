@@ -11,6 +11,7 @@
 {checkedbox} Remote Java +
 {checkedbox} Security +
 {checkedbox} LDAP +
+{checkedbox} Config via CLI +
 {checkedbox} JUnit +
 |
 Used secured JBoss Data Grid instance. +
