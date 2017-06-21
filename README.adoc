@@ -5,6 +5,18 @@
 |Demo Name |Features Demonstrated| Description| Prerequisites
 
 
+|https://github.com/infinispan-demos/jdg-security-demo[jdg-security-demo]
+|
+{checkedbox} JBoss Data Grid +
+{checkedbox} Remote Java +
+{checkedbox} Security +
+{checkedbox} LDAP +
+{checkedbox} JUnit +
+|
+Used secured JDG via Access Control List (ACL) or Role Based Access Control (RBAC). +
+|
+
+
 |https://github.com/infinispan-demos/infinispan-http2-go-example[http2-go-example]
 |
 {checkedbox} Remote +
