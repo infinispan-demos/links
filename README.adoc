@@ -13,7 +13,11 @@
 {checkedbox} LDAP +
 {checkedbox} JUnit +
 |
-Used secured JDG via Access Control List (ACL) or Role Based Access Control (RBAC). +
+Used secured JBoss Data Grid instance. +
+
+Access via Access Control List (ACL). +
+
+Access via Role Based Access Control (RBAC). +
 |
 
 
@@ -23,7 +27,9 @@ Used secured JDG via Access Control List (ACL) or Role Based Access Control (RBA
 {checkedbox} HTTP2 +
 {checkedbox} Security +
 |
-Go client connects to Infinispan via HTTP/2 with TLS/ALPN support. +
+Go client connects to Infinispan. +
+
+Uses HTTP/2 with TLS/ALPN support. +
 |
 
 
@@ -77,7 +83,9 @@ Spring Boot based shopping cart application. +
 
 HTTP session caching in Infinispan. +
 
-Stateful application re-deployments on https://kubernetes.io/[Kubernetes] (or) https://www.openshift.com/[OpenShift]. +
+Stateful application re-deployments. + 
+
+On https://kubernetes.io/[Kubernetes] or https://www.openshift.com/[OpenShift]. +
 
 Seamless https://martinfowler.com/bliki/CanaryRelease.html[canary releases] without losing the state.
 |
