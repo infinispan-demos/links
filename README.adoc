@@ -5,6 +5,21 @@
 |Demo Name |Features Demonstrated| Description| Prerequisites
 
 
+|https://github.com/infinispan-demos/jdg-remote-query-demo[jdg-remote-query-demo]
+|
+{checkedbox} JBoss Data Grid +
+{checkedbox} Remote Java +
+{checkedbox} Remote Query +
+{checkedbox} JBoss EAP +
+|
+Task management app on JBoss EAP. +
+
+Stores data in remote JBoss Data Grid. +
+
+Uses remote query to search tasks. +
+|
+
+
 |https://github.com/infinispan-demos/jdg-security-demo[jdg-security-demo]
 |
 {checkedbox} JBoss Data Grid +
@@ -14,7 +29,7 @@
 {checkedbox} Config via CLI +
 {checkedbox} JUnit +
 |
-Used secured JBoss Data Grid instance. +
+Uses secured JBoss Data Grid instance. +
 
 Access via Access Control List (ACL). +
 
