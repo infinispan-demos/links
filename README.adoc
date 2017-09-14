@@ -16,7 +16,7 @@
 |
 A demo for Infinispan integrating with Hawkular and Service Catalog. +
 |
-
+https://www.openshift.org/[OpenShift]
 
 |https://github.com/infinispan-demos/jdg-remote-query-demo[jdg-remote-query-demo]
 |
