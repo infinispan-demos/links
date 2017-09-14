@@ -5,6 +5,19 @@
 |Demo Name |Features Demonstrated| Description| Prerequisites
 
 
+|https://github.com/infinispan-demos/infinispan-openshift-monitoring-and-catalog[openshift-monitoring-catalog-demo]
+|
+{checkedbox} OpenShift +
+{checkedbox} Jolokia +
+{checkedbox} Hawkular +
+{checkedbox} Service Catalog +
+{checkedbox} Spring Boot +
+{checkedbox} Remote Java +
+|
+A demo for Infinispan integrating with Hawkular and Service Catalog. +
+|
+
+
 |https://github.com/infinispan-demos/jdg-remote-query-demo[jdg-remote-query-demo]
 |
 {checkedbox} JBoss Data Grid +
