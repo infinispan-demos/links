@@ -5,6 +5,17 @@
 |Demo Name |Features Demonstrated| Description| Prerequisites
 
 
+|https://github.com/infinispan-demos/infinispan-openshift-multitenancy[openshift-multitenancy-demo]
+|
+{checkedbox} OpenShift +
+{checkedbox} Multi Tenancy +
+{checkedbox} Remote Java +
+|
+Infinispan multi-tenancy demo on OpenShift. +
+|
+https://www.openshift.org/[OpenShift]
+
+
 |https://github.com/infinispan-demos/infinispan-openshift-monitoring-and-catalog[openshift-monitoring-catalog-demo]
 |
 {checkedbox} OpenShift +
@@ -17,6 +28,7 @@
 A demo for Infinispan integrating with Hawkular and Service Catalog. +
 |
 https://www.openshift.org/[OpenShift]
+
 
 |https://github.com/infinispan-demos/jdg-remote-query-demo[jdg-remote-query-demo]
 |
@@ -120,6 +132,7 @@ Seamless https://martinfowler.com/bliki/CanaryRelease.html[canary releases] with
 |
 https://kubernetes.io/[Kubernetes] +
 or https://www.openshift.org/[OpenShift]
+
 
 |https://github.com/burrsutter/devoxxUK17_kubernetes/tree/master/5_helloinfinispan[hello-springboot-openshift]
 |
