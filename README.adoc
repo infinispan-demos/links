@@ -234,5 +234,17 @@ https://nodejs.org/en/[Node]
 Demo unit test Infinispan using https://github.com/lordofthejars/nosql-unit[NoSQLUnit].
 |
 
+|https://github.com/infinispan-demos/vertx-api[vertx-api]
+|
+{checkedbox} OpenShift +
+{checkedbox} Vert.x +
+{checkedbox} Remote Java +
+{checkedbox} REST API +
+{checkedbox} PUSH API +
+|
+Infinispan and Vert.x API demo. Can be deployed in Openshift +
+|
+https://www.openshift.org/[OpenShift]
+
 
 |===
