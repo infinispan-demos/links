@@ -246,5 +246,12 @@ Infinispan and Vert.x API demo. Can be deployed in Openshift +
 |
 https://www.openshift.org/[OpenShift]
 
+|https://github.com/infinispan-demos/JDG-x-site-replication-demo[x-site @ OpenShift]
+|
+{checkedbox} OpenShift +
+|
+JDG Demo showing how to do x-site replication @ OpenShift using Load Balancer Services +
+|
+https://www.openshift.org/[OpenShift]
 
 |===
