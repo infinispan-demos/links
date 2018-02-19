@@ -5,6 +5,18 @@
 |Demo Name |Features Demonstrated| Description| Prerequisites
 
 
+|https://github.com/infinispan-demos/infinispan-pokemon[pokemon-query-demo]
+|
+{checkedbox} Transcoding +
+{checkedbox} Remote Query +
+{checkedbox} JSON +
+|
+Query over REST. +
+
+Data injested as JSON, transformed to Protobuf. +
+|
+
+
 |https://github.com/infinispan-demos/infinispan-openshift-multitenancy[openshift-multitenancy-demo]
 |
 {checkedbox} OpenShift +
@@ -252,7 +264,9 @@ https://www.openshift.org/[OpenShift]
 {checkedbox} X-Site +
 {checkedbox} OpenShift +
 |
-Demo showing how to set up x-site replication on OpenShift using Load Balancer Services +
+Setting up x-site replication on OpenShift. +
+
+Uses Kubernetes Load Balancer Services. +
 |
 https://www.openshift.org/[OpenShift]
 
