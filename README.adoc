@@ -5,6 +5,29 @@
 |Demo Name |Features Demonstrated| Description| Prerequisites
 
 
+|https://github.com/infinispan-demos/streaming-data-kubernetes[streaming-data-kubernetes]
+|
+{checkedbox} Remote Java +
+{checkedbox} Continuous Query +
+{checkedbox} Protostream +
+{checkedbox} Vert.x +
+{checkedbox} OpenShift +
+|
+Swiss transport data set application. +
+
+Handling real-time data with Continuous Queries. +
+
+Vert.x glues the application together. +
+
+Runs on top of OpenShift (local or Google Cloud). +
+
+Smaller version of the 
+https://github.com/infinispan-demos/swiss-transport-datagrid[swiss-transport-datagrid]
+demo. +
+|
+https://www.openshift.org/[OpenShift]
+
+
 |https://github.com/infinispan-demos/infinispan-pokemon[pokemon-query-demo]
 |
 {checkedbox} Transcoding +
