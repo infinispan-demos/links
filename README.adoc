@@ -57,7 +57,7 @@ Data injested as JSON, transformed to Protobuf. +
 {checkedbox} Remote Java +
 {checkedbox} Near caching +
 |
-Infinispan and Vert.x API demo. Can be deployed in Openshift +
+Infinispan and Spring-Boot demo +
 |
 
 
