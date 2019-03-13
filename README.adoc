@@ -27,6 +27,17 @@ demo. +
 |
 https://www.openshift.org/[OpenShift]
 
+|https://github.com/infinispan-demos/harry-potter-quarkus[Harry Potter Quarkus]
+|
+{checkedbox} Quarkus +
+{checkedbox} Remote Server +
+{checkedbox} Query +
+{checkedbox} Continuous Query +
+|
+Infinispan and Quarkus demo. Can be deployed in Openshift +
+|
+https://www.graalvm.org/[Graal VM]
+
 
 |https://github.com/infinispan-demos/infinispan-pokemon[pokemon-query-demo]
 |
@@ -37,6 +48,28 @@ https://www.openshift.org/[OpenShift]
 Query over REST. +
 
 Data injested as JSON, transformed to Protobuf. +
+|
+
+
+|https://github.com/infinispan-demos/infinispan-near-cache[spring-boot-near-caching]
+|
+{checkedbox} Spring Boot +
+{checkedbox} Remote Java +
+{checkedbox} Near caching +
+|
+Infinispan and Vert.x API demo. Can be deployed in Openshift +
+|
+
+
+|https://github.com/infinispan-demos/vertx-api[vertx-api]
+|
+{checkedbox} Vert.x +
+{checkedbox} Remote Java +
+{checkedbox} REST API +
+{checkedbox} PUSH API +
+{checkedbox} OpenShift +
+|
+Infinispan and Vert.x API demo. Can be deployed in Openshift +
 |
 
 
@@ -259,7 +292,6 @@ https://expressjs.com[Express.js] app for the middle tier. +
 |
 https://nodejs.org/en/[Node]
 
-
 |https://github.com/infinispan-demos/infinispan-nosqlunit-demo[nosqlunit]
 |
 {checkedbox} Embedded +
@@ -268,28 +300,6 @@ https://nodejs.org/en/[Node]
 |
 Demo unit test Infinispan using https://github.com/lordofthejars/nosql-unit[NoSQLUnit].
 |
-
-|https://github.com/infinispan-demos/vertx-api[vertx-api]
-|
-{checkedbox} Vert.x +
-{checkedbox} Remote Java +
-{checkedbox} REST API +
-{checkedbox} PUSH API +
-{checkedbox} OpenShift +
-|
-Infinispan and Vert.x API demo. Can be deployed in Openshift +
-|
-
-|https://github.com/infinispan-demos/harry-potter-quarkus[Harry Potter Quarkus]
-|
-{checkedbox} Quarkus +
-{checkedbox} Remote Server +
-{checkedbox} Query
-{checkedbox} Continuous Query
-|
-Infinispan and Quarkus demo. Can be deployed in Openshift +
-|
-https://www.graalvm.org/[Graal VM]
 
 |https://github.com/infinispan-demos/JDG-x-site-replication-demo[X-Site on OpenShift]
 |
