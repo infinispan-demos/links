@@ -313,4 +313,15 @@ Uses Kubernetes Load Balancer Services. +
 |
 https://www.openshift.org/[OpenShift]
 
+|https://github.com/infinispan-demos/hotrod-secured-remote-access-datagrid-openshift[Secured Remote Access to Data Grid on OpenShift]
+|
+{checkedbox} HotRod +
+{checkedbox} TLS/SSL +
+{checkedbox} Remote Server +
+{checkedbox} OpenShift +
+|
+HotRod client remotely accesses to a secured Data Grid cluster running on OpenShift
+|
+https://www.java.com/[Java], https://maven.apache.org/[Maven], https://docs.oracle.com/javase/8/docs/technotes/tools/unix/keytool.html[keytool], https://www.openshift.org/[OpenShift]
+
 |===
