@@ -4,6 +4,19 @@
 |===
 |Demo Name |Features Demonstrated| Description| Prerequisites
 
+|https://github.com/infinispan-demos/quarkus-insights-demo[Quarkus Insights #115 What's new in Infinispan 23-01-23]
+|
+{checkedbox} Quarkus +
+{checkedbox} Infinispan Server +
+{checkedbox} Search and Indexing +
+{checkedbox} Dev Services +
+{checkedbox} Caching annotations +
+{checkedbox} Create caches on startup +
+|
+Infinispan and Quarkus Insights demo showcasing the features of the Quarkus and Infinispan extension from 2.5.x
+|
+Java 17
+
 
 |https://github.com/infinispan-demos/streaming-data-kubernetes[streaming-data-kubernetes]
 |
